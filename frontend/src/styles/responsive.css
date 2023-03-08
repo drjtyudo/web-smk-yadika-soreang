@@ -1,0 +1,162 @@
+/* Phone responsive css */
+
+body {
+  overflow-x: hidden;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /* navbar */
+  .navbar img {
+    margin: 0 10px;
+  }
+
+  .nav-link {
+    padding: 20px;
+    border-bottom: 0.2px solid rgb(146, 146, 146);
+  }
+  /* end */
+
+  /* page jurusan */
+  /* end */
+
+  /* jumbotron home */
+  .jumbotron {
+    text-align: center;
+  }
+  /* end */
+
+  /* bar info */
+
+  .barInfo {
+    text-align: center;
+    width: 250px;
+    flex-direction: column;
+  }
+
+  .barInfo img {
+    width: 100px;
+    margin: auto;
+  }
+
+  .student,
+  .calendar,
+  .teacher {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .calendar {
+    border-top: 0.3px solid rgb(141, 141, 141);
+    border-bottom: 0.3px solid rgb(141, 141, 141);
+  }
+
+  /* end */
+
+  /* About Lead */
+  .about-leader {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-leader img {
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  .text-about-lead {
+    margin-top: 60px;
+  }
+
+  /* End */
+
+  /* jurusan home  */
+
+  .jurusan .card {
+    width: 280px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .jurusan h3 {
+    margin-top: 100px !important;
+    margin-bottom: 30px !important;
+  }
+
+  /* end */
+
+  /* simple jumbotron */
+
+  .simple-jumbotron .jumbotron-img {
+    display: flex;
+    justify-content: center;
+  }
+  .simple-jumbotron img {
+    width: 220px !important;
+    margin: 20px auto;
+  }
+
+  .hotel .simple-jumbotron img {
+    margin-top: 20px;
+  }
+
+  .simple-jumbotron .jumbotron-text {
+    text-align: center;
+    width: auto;
+    margin-top: 0;
+    padding-top: 70px;
+  }
+  /* end */
+
+  /* fasilitas */
+  .fasilitas img {
+    width: 220px !important;
+  }
+  .fasilitas .desc {
+    margin-top: 100px !important;
+  }
+  /* end */
+
+  /* galery jurusan */
+  .galery-swiper img {
+    width: 300px;
+  }
+  /* end */
+
+  /* reason */
+  .reason {
+    text-align: center;
+    width: auto !important;
+  }
+  /* end */
+
+  /* lab Praktikum */
+  .lab-praktikum {
+    text-align: center;
+    width: auto !important;
+  }
+  .lab-praktikum img {
+    width: 300px !important;
+  }
+  /* end */
+
+  /* footer */
+  footer .ppdb {
+    padding: 30px !important;
+    height: 150px;
+  }
+
+  footer .ppdb .btn {
+    margin-top: 20px;
+  }
+
+  footer .contact-footer {
+    padding: 50px 30px !important;
+  }
+
+  footer .contact-footer .alamat p {
+    width: 250px;
+  }
+
+  /* end */
+}
